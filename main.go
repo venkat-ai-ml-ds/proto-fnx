@@ -39,7 +39,7 @@ func Main(Context openruntimes.Context) openruntimes.Response {
 	if Context.Req.Path == "/ping" {
 		// Use res object to respond with text(), json(), or binary()
 		// Don't forget to return a response!
-		return Context.Res.Text("Pong")
+		return Context.Res.Text("QAD-G: BOOTSTRAP - PROTOTYPE")
 	}
 
 	return Context.Res.Json(Response{
